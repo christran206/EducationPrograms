@@ -1,0 +1,20 @@
+Script started on Mon 19 May 2014 11:42:28 AM PDT
+ctran206@uw1-320-01:~/CSS434/HW3/UWAgent$ ./runAgent.sh 58253 WhoAgent 10 UW1-320-02 UW1-320-03 UW1-320-04 UW1-320-055[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[16Pcompile.sh WhoAgent.java
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+ctran206@uw1-320-01:~/CSS434/HW3/UWAgent$ ./compile.sh WhoAgent.javarunAgent.sh 58253 WhoAgent 10 UW1-320-02 UW1-320-03 UW1-320-04 UW1-320-055[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+ctran206@uw1-320-01:~/CSS434/HW3/UWAgent$ 
+ctran206@uw1-320-01:~/CSS434/HW3/UWAgent$ ./runAgent.sh 58253 WhoAgent 10 UW1-320-02[16Pcompile.sh WhoAgent.javarunAgent.sh 58253 WhoAgent 10 UW1-320-02[K./runAgent.sh 58253 WhoAgent 10 UW1-320-02[16Pcompile.sh WhoAgent.javarunAgent.sh 58253 WhoAgent 10 UW1-320-02 UW1-320-03 UW1-320-04 UW1-320-055[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+ctran206@uw1-320-01:~/CSS434/HW3/UWAgent$ 
+ctran206@uw1-320-01:~/CSS434/HW3/UWAgent$ ./runAgent.sh 58253 WhoAgent 10 UW1-320-02 UW1-320-03[K[16Pcompile.sh WhoAgent.javarunAgent.sh 58253 WhoAgent 10 UW1-320-02 UW1-320-03 UW1-320-04 UW1-320-055
+ctran206@uw1-320-01:~/CSS434/HW3/UWAgent$ 
+ctran206@uw1-320-01:~/CSS434/HW3/UWAgent$ ./runAgent.sh 58253 WhoAgent 10 UW1-320-02 UW1-320-03 UW1-320-04 UW1-320-055 UW1-320-06 UW1-320-06[K7 UW1-320-06[K8 UW1-320-06[K9
+ctran206@uw1-320-01:~/CSS434/HW3/UWAgent$ 
+ctran206@uw1-320-01:~/CSS434/HW3/UWAgent$ exit
+
+Script done on Mon 19 May 2014 11:43:46 AM PDT

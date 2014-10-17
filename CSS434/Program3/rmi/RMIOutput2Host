@@ -1,0 +1,106 @@
+Script started on Mon 19 May 2014 12:10:54 PM PDT
+ctran206@uw1-320-01:~/CSS434/HW3/RMI$ java WhoClient.[K 58253 10 UW1-320-02 UW1-320-03
+Loop: 1
+UW1-320-02:
+ctran206 pts/2        2014-05-19 12:09 (131.107.147.46)
+jordy869 pts/3        2014-05-19 06:30 (c-67-182-145-42.hsd1.wa.comcast.net)
+UW1-320-03:
+drpier   pts/1        2014-05-19 09:47 (c-98-237-196-210.hsd1.wa.comcast.net)
+jordy869 pts/2        2014-05-19 06:32 (c-67-182-145-42.hsd1.wa.comcast.net)
+ushab    pts/5        2014-05-19 10:03 (c-98-237-196-53.hsd1.wa.comcast.net)
+ctran206 pts/7        2014-05-19 12:09 (131.107.174.46)
+matkips  pts/10       2014-05-19 00:40 (c-76-121-181-161.hsd1.wa.comcast.net)
+Loop: 2
+UW1-320-02:
+ctran206 pts/2        2014-05-19 12:09 (131.107.147.46)
+jordy869 pts/3        2014-05-19 06:30 (c-67-182-145-42.hsd1.wa.comcast.net)
+UW1-320-03:
+drpier   pts/1        2014-05-19 09:47 (c-98-237-196-210.hsd1.wa.comcast.net)
+jordy869 pts/2        2014-05-19 06:32 (c-67-182-145-42.hsd1.wa.comcast.net)
+ushab    pts/5        2014-05-19 10:03 (c-98-237-196-53.hsd1.wa.comcast.net)
+ctran206 pts/7        2014-05-19 12:09 (131.107.174.46)
+matkips  pts/10       2014-05-19 00:40 (c-76-121-181-161.hsd1.wa.comcast.net)
+Loop: 3
+UW1-320-02:
+ctran206 pts/2        2014-05-19 12:09 (131.107.147.46)
+jordy869 pts/3        2014-05-19 06:30 (c-67-182-145-42.hsd1.wa.comcast.net)
+UW1-320-03:
+drpier   pts/1        2014-05-19 09:47 (c-98-237-196-210.hsd1.wa.comcast.net)
+jordy869 pts/2        2014-05-19 06:32 (c-67-182-145-42.hsd1.wa.comcast.net)
+ushab    pts/5        2014-05-19 10:03 (c-98-237-196-53.hsd1.wa.comcast.net)
+ctran206 pts/7        2014-05-19 12:09 (131.107.174.46)
+matkips  pts/10       2014-05-19 00:40 (c-76-121-181-161.hsd1.wa.comcast.net)
+Loop: 4
+UW1-320-02:
+ctran206 pts/2        2014-05-19 12:09 (131.107.147.46)
+jordy869 pts/3        2014-05-19 06:30 (c-67-182-145-42.hsd1.wa.comcast.net)
+UW1-320-03:
+drpier   pts/1        2014-05-19 09:47 (c-98-237-196-210.hsd1.wa.comcast.net)
+jordy869 pts/2        2014-05-19 06:32 (c-67-182-145-42.hsd1.wa.comcast.net)
+ushab    pts/5        2014-05-19 10:03 (c-98-237-196-53.hsd1.wa.comcast.net)
+ctran206 pts/7        2014-05-19 12:09 (131.107.174.46)
+matkips  pts/10       2014-05-19 00:40 (c-76-121-181-161.hsd1.wa.comcast.net)
+Loop: 5
+UW1-320-02:
+ctran206 pts/2        2014-05-19 12:09 (131.107.147.46)
+jordy869 pts/3        2014-05-19 06:30 (c-67-182-145-42.hsd1.wa.comcast.net)
+UW1-320-03:
+drpier   pts/1        2014-05-19 09:47 (c-98-237-196-210.hsd1.wa.comcast.net)
+jordy869 pts/2        2014-05-19 06:32 (c-67-182-145-42.hsd1.wa.comcast.net)
+ushab    pts/5        2014-05-19 10:03 (c-98-237-196-53.hsd1.wa.comcast.net)
+ctran206 pts/7        2014-05-19 12:09 (131.107.174.46)
+matkips  pts/10       2014-05-19 00:40 (c-76-121-181-161.hsd1.wa.comcast.net)
+Loop: 6
+UW1-320-02:
+ctran206 pts/2        2014-05-19 12:09 (131.107.147.46)
+jordy869 pts/3        2014-05-19 06:30 (c-67-182-145-42.hsd1.wa.comcast.net)
+UW1-320-03:
+drpier   pts/1        2014-05-19 09:47 (c-98-237-196-210.hsd1.wa.comcast.net)
+jordy869 pts/2        2014-05-19 06:32 (c-67-182-145-42.hsd1.wa.comcast.net)
+ushab    pts/5        2014-05-19 10:03 (c-98-237-196-53.hsd1.wa.comcast.net)
+ctran206 pts/7        2014-05-19 12:09 (131.107.174.46)
+matkips  pts/10       2014-05-19 00:40 (c-76-121-181-161.hsd1.wa.comcast.net)
+Loop: 7
+UW1-320-02:
+ctran206 pts/2        2014-05-19 12:09 (131.107.147.46)
+jordy869 pts/3        2014-05-19 06:30 (c-67-182-145-42.hsd1.wa.comcast.net)
+UW1-320-03:
+drpier   pts/1        2014-05-19 09:47 (c-98-237-196-210.hsd1.wa.comcast.net)
+jordy869 pts/2        2014-05-19 06:32 (c-67-182-145-42.hsd1.wa.comcast.net)
+ushab    pts/5        2014-05-19 10:03 (c-98-237-196-53.hsd1.wa.comcast.net)
+ctran206 pts/7        2014-05-19 12:09 (131.107.174.46)
+matkips  pts/10       2014-05-19 00:40 (c-76-121-181-161.hsd1.wa.comcast.net)
+Loop: 8
+UW1-320-02:
+ctran206 pts/2        2014-05-19 12:09 (131.107.147.46)
+jordy869 pts/3        2014-05-19 06:30 (c-67-182-145-42.hsd1.wa.comcast.net)
+UW1-320-03:
+drpier   pts/1        2014-05-19 09:47 (c-98-237-196-210.hsd1.wa.comcast.net)
+jordy869 pts/2        2014-05-19 06:32 (c-67-182-145-42.hsd1.wa.comcast.net)
+ushab    pts/5        2014-05-19 10:03 (c-98-237-196-53.hsd1.wa.comcast.net)
+ctran206 pts/7        2014-05-19 12:09 (131.107.174.46)
+matkips  pts/10       2014-05-19 00:40 (c-76-121-181-161.hsd1.wa.comcast.net)
+Loop: 9
+UW1-320-02:
+ctran206 pts/2        2014-05-19 12:09 (131.107.147.46)
+jordy869 pts/3        2014-05-19 06:30 (c-67-182-145-42.hsd1.wa.comcast.net)
+UW1-320-03:
+drpier   pts/1        2014-05-19 09:47 (c-98-237-196-210.hsd1.wa.comcast.net)
+jordy869 pts/2        2014-05-19 06:32 (c-67-182-145-42.hsd1.wa.comcast.net)
+ushab    pts/5        2014-05-19 10:03 (c-98-237-196-53.hsd1.wa.comcast.net)
+ctran206 pts/7        2014-05-19 12:09 (131.107.174.46)
+matkips  pts/10       2014-05-19 00:40 (c-76-121-181-161.hsd1.wa.comcast.net)
+Loop: 10
+UW1-320-02:
+ctran206 pts/2        2014-05-19 12:09 (131.107.147.46)
+jordy869 pts/3        2014-05-19 06:30 (c-67-182-145-42.hsd1.wa.comcast.net)
+UW1-320-03:
+drpier   pts/1        2014-05-19 09:47 (c-98-237-196-210.hsd1.wa.comcast.net)
+jordy869 pts/2        2014-05-19 06:32 (c-67-182-145-42.hsd1.wa.comcast.net)
+ushab    pts/5        2014-05-19 10:03 (c-98-237-196-53.hsd1.wa.comcast.net)
+ctran206 pts/7        2014-05-19 12:09 (131.107.174.46)
+matkips  pts/10       2014-05-19 00:40 (c-76-121-181-161.hsd1.wa.comcast.net)
+Run Time = 171milliseconds
+ctran206@uw1-320-01:~/CSS434/HW3/RMI$ exit
+
+Script done on Mon 19 May 2014 12:11:11 PM PDT

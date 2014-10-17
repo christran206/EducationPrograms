@@ -1,0 +1,44 @@
+Script started on Mon 05 May 2014 12:04:31 PM PDT
+ctran206@uw1-320-10:~/CSS434/HW2$ javac Heat2D_mpi.java
+ctran206@uw1-320-10:~/CSS434/HW2$ cat mpd.hosts 
+uw1-320-10.uwb.edu
+uw1-320-01.uwb.edu
+uw1-320-02.uwb.edu
+uw1-320-03.uwb.edu
+uw1-320-04.uwb.edu
+uw1-320-05.uwb.edu
+uw1-320-06.uwb.edu
+uw1-320-07.uwb.edu
+
+ctran206@uw1-320-10:~/CSS434/HW2$ mpdallexit
+ctran206@uw1-320-10:~/CSS434/HW2$ mpdboot -n 4 -v
+running mpdallexit on uw1-320-10
+LAUNCHED mpd on uw1-320-10  via  
+RUNNING: mpd on uw1-320-10
+LAUNCHED mpd on uw1-320-01.uwb.edu  via  uw1-320-10
+LAUNCHED mpd on uw1-320-02.uwb.edu  via  uw1-320-10
+LAUNCHED mpd on uw1-320-03.uwb.edu  via  uw1-320-10
+RUNNING: mpd on uw1-320-01.uwb.edu
+RUNNING: mpd on uw1-320-02.uwb.edu
+RUNNING: mpd on uw1-320-03.uwb.edu
+ctran206@uw1-320-10:~/CSS434/HW2$ java Heat2D 100 3000 2700 500 > out1.txt
+ctran206@uw1-320-10:~/CSS434/HW2$ j[Kprunjava Heat2D_mpi.[K 100 3000 2700 500 > out4.txt ctran206@uw1-320-10:~/CSS434/HW2$ nano out4.txt
+ctran206@uw1-320-10:~/CSS434/HW2$ prunjava 4 Heat2D_mpi 100 3000 2700 500 > out4.txt[?1l>ctran206@uw1-320-10:~/CSS434/HW2$ diff out1.txt out4.txt 
+715c715
+< Elapsed time = 323
+---
+> Elapsed time = 1037
+ctran206@uw1-320-10:~/CSS434/HW2$ java Heat2D 300 3000 2700 0
+Elapsed time = 570
+ctran206@uw1-320-10:~/CSS434/HW2$ prunjava 1 Heat2D_mpi.[K 300 3000 2700 0
+Elapsed time = 656
+ctran206@uw1-320-10:~/CSS434/HW2$ prunjava 2 Heat2D_mpi 300 3000 2700 0
+Elapsed time = 1506
+ctran206@uw1-320-10:~/CSS434/HW2$ prunjava 3 Heat2D_mpi 300 3000 2700 0
+Elapsed time = 1180
+ctran206@uw1-320-10:~/CSS434/HW2$ prunjava 4 Heat2D_mpi 300 3000 2700 0
+Elapsed time = 1131
+ctran206@uw1-320-10:~/CSS434/HW2$ mpdallexit
+ctran206@uw1-320-10:~/CSS434/HW2$ exit
+
+Script done on Mon 05 May 2014 12:07:49 PM PDT
