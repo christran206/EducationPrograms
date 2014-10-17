@@ -1,0 +1,21 @@
+Script started on Thu 17 Apr 2014 01:24:37 PM PDT
+ctran206@uw1-320-06:~/CSS430/Program1/process$ exitcat attempt2.txt top[Kman bgfg[4Ppslscat attempt2.txt top[Kcat attempt2.txt ls[Kpsman fgbg[3Ptopcat attempt2.txt exit[K[Kg++ process
+process.cpp  processes    
+ctran206@uw1-320-06:~/CSS430/Program1/process$ g++ process.cpp -o processes
+ctran206@uw1-320-06:~/CSS430/Program1/process$ ./processes mingetty
+0
+ctran206@uw1-320-06:~/CSS430/Program1/process$ ps -A | grep mingetty | wc -l
+0
+ctran206@uw1-320-06:~/CSS430/Program1/process$ 
+ctran206@uw1-320-06:~/CSS430/Program1/process$ ./processes ksand
+0
+ctran206@uw1-320-06:~/CSS430/Program1/process$ ps -A | grep kscand | wc -l
+0
+ctran206@uw1-320-06:~/CSS430/Program1/process$ 
+ctran206@uw1-320-06:~/CSS430/Program1/process$ ./processes sendmail
+0
+ctran206@uw1-320-06:~/CSS430/Program1/process$ ps -A | grep sendmail | wc -l
+0
+ctran206@uw1-320-06:~/CSS430/Program1/process$ exit
+
+Script done on Thu 17 Apr 2014 01:25:36 PM PDT

@@ -1,0 +1,124 @@
+Script started on Thu 13 Mar 2014 06:55:36 PM PDT
+Disk quotas for user ctran206 (uid 5050): 
+     Filesystem  blocks   quota   limit   grace   files   quota   limit   grace
+   metis:/home2    4752   1000M   1100M             182       0       0        
+   metis:/home3       0       0       0               0       0       0        
+
+Active processes on uw1-320-16 for user ctran206:
+  PID TT       %CPU %MEM     TIME COMMAND
+24253 ?         0.0  0.1 00:00:00 sshd: ctran206@notty
+24254 ?         0.0  0.0 00:00:00 /usr/libexec/openssh/sftp-server
+24860 ?         0.0  0.1 00:00:00 sshd: ctran206@pts/5
+24861 pts/5     0.0  0.0 00:00:00 -bash
+25160 pts/5     0.0  0.0 00:00:00 script
+25162 pts/5     0.0  0.0 00:00:00 script
+
+]0;ctran206@uw1-320-16:~/CSS343B/LAB4[ctran206@uw1-320-16 LAB4]$ scriptvalgrind ./a.out [8Pg++ *.cpp
+]0;ctran206@uw1-320-16:~/CSS343B/LAB4[ctran206@uw1-320-16 LAB4]$ g++ *.cpp[3Pscriptvalgrind ./a.out 
+==25253== Memcheck, a memory error detector
+==25253== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==25253== Using Valgrind-3.5.0 and LibVEX; rerun with -h for copyright info
+==25253== Command: ./a.out
+==25253== 
+Fiction:
+AVAIL AUTHOR                TITLE                                   YEAR 
+  5   Daheim Mary           Fowl Prey                               1991
+  5   Daheim Mary           The Alpine Advocate                     1992
+  5   Daheim Mary           The Alpine Betrayal                     1993
+  5   Forster E. M.         The Longest Journey                     1922
+  5   Higgins Colin         Harold and Maude                        1971
+  5   Kerouac Jack          On the Road                             1955
+  5   Kerouac Jack          The Dharma Bums                         1958
+  5   Lawrence D. H.        Lady Chatterley's Lover                 1928
+  5   Lawrence D. H.        Sons and Lovers                         1913
+  5   Lewis Sinclair        Babbitt                                 1922
+  5   Muller Marcia         Edwin of the Iron Shoes                 1977
+  5   Muller Marcia         Eye of the Storm                        1988
+  5   Pirsig Robert         Zen & the Art of Motorcycle Maint       1974
+  5   Tolkien J.R.R.        The Hobbit                              1937
+  5   Walker Alice          The Color Purple                        1982
+  5   Wright Richard        Native Son                              1940
+Periodicals:
+AVAIL YEAR MO TITLE                                   
+  1   2009 1  Vegetarian Times                        
+  1   2009 2  Communications of the ACM               
+  1   2009 2  Vegetarian Times                        
+  1   2009 3  Communications of the ACM               
+  1   2009 4  Communications of the ACM               
+  1   2009 5  Communications of the ACM               
+  1   2009 7  Communications of the ACM               
+  1   2009 7  Sigart Bulletin                         
+  1   2010 1  Communications of the ACM               
+  1   2010 1  Vegetarian Times                        
+  1   2010 2  Communications of the ACM               
+  1   2010 3  Communications of the ACM               
+  1   2010 12 Vegetarian Times                        
+  1   2012 3  Communications of the ACM               
+Youth:
+AVAIL TITLE                                   AUTHOR                YEAR 
+  5   As the Waltz was Ending                 Butterworth Emma Maca 1982
+  5   Danny Dunn & the Homework Machine       Williams Jay          1959
+  5   Horton hears a Who                      Seuss Dr.             1954
+  5   I Hate My Brother Harry                 Dragonwagon Crescent  1983
+  5   If you give a mouse a cookie            Numeroff Laura        1985
+  5   Martha the Movie Mouse                  Lobel Arnold          1966
+  5   Old Lars                                Magnus Erica          1984
+  5   Penelope Gets Wheels                    Peterson Esther Allen 1982
+  5   Robots and Intelligent Machines         Litterick Ian         1984
+  5   Smokey                                  Peet Bill             1962
+  5   The Secret Life of Mr. Weird            Allen Jeffrey         1982
+  5   Treehorn's Wish                         Heide Florence Parry  1984
+  5   Yertle the Turtle                       Seuss Dr.             1950
+*** Patron ID = 1000 Mouse Minnie
+Patron 1000 has no history to display
+*** Patron ID = 1111 Mouse Mickey
+Patron 1111 has no history to display
+*** Patron ID = 5000 Moose Bullwinkle
+Patron 5000 has no history to display
+Checkout/Return of Book Not Found
+Checkout/Return of Book Not Found
+Checkout/Return of Book Not Found
+Unable to checkout publication
+Unable to checkout publication
+Unable to checkout publication
+Patron has not checked out book to return
+Unable to CheckIn or return Book
+*** Patron ID = 1000 Mouse Minnie
+Checked Out Muller Marcia         Edwin of the Iron Shoes                 1977
+Checked Out Muller Marcia         Eye of the Storm                        1988
+Checked Out Higgins Colin         Harold and Maude                        1971
+*** Patron ID = 1111 Mouse Mickey
+Checked Out 2010 1  Communications of the ACM               
+Checked Out Danny Dunn & the Homework Machine       Williams Jay          1959
+Return      Danny Dunn & the Homework Machine       Williams Jay          1959
+Checked Out 2010 2  Communications of the ACM               
+Checked Out 2009 7  Communications of the ACM               
+Checked Out Higgins Colin         Harold and Maude                        1971
+*** Patron ID = 5000 Moose Bullwinkle
+Checked Out Danny Dunn & the Homework Machine       Williams Jay          1959
+Return      Danny Dunn & the Homework Machine       Williams Jay          1959
+Checked Out Treehorn's Wish                         Heide Florence Parry  1984
+Checked Out Old Lars                                Magnus Erica          1984
+Checked Out Smokey                                  Peet Bill             1962
+Checked Out Yertle the Turtle                       Seuss Dr.             1950
+Checked Out Higgins Colin         Harold and Maude                        1971
+Checked Out Lewis Sinclair        Babbitt                                 1922
+Checked Out Higgins Colin         Harold and Maude                        1971
+*** Patron ID = 8888 Pig Porky
+Checked Out Forster E. M.         The Longest Journey                     1922
+Checked Out Walker Alice          The Color Purple                        1982
+Checked Out Wright Richard        Native Son                              1940
+Checked Out Lawrence D. H.        Lady Chatterley's Lover                 1928
+Checked Out Higgins Colin         Harold and Maude                        1971
+==25253== 
+==25253== HEAP SUMMARY:
+==25253==     in use at exit: 0 bytes in 0 blocks
+==25253==   total heap usage: 589 allocs, 589 frees, 46,535 bytes allocated
+==25253== 
+==25253== All heap blocks were freed -- no leaks are possible
+==25253== 
+==25253== For counts of detected and suppressed errors, rerun with: -v
+==25253== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 15 from 8)
+]0;ctran206@uw1-320-16:~/CSS343B/LAB4[ctran206@uw1-320-16 LAB4]$ exit
+
+Script done on Thu 13 Mar 2014 06:55:52 PM PDT

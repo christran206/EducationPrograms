@@ -1,0 +1,24 @@
+Script started on Thu 01 May 2014 10:01:48 AM PDT
+ctran206@uw1-320-06:~/CSS430/P2/ThreadOS_P2$ java Boot
+threadOS ver 1.0:
+Type ? for help
+threadOS: a new thread (thread=Thread[Thread-3,2,main] tid=0 pid=-1)
+-->l Test2
+l Test2
+threadOS: a new thread (thread=Thread[Thread-5,2,main] tid=1 pid=0)
+threadOS: a new thread (thread=Thread[Thread-7,2,main] tid=2 pid=1)
+threadOS: a new thread (thread=Thread[Thread-9,2,main] tid=3 pid=1)
+threadOS: a new thread (thread=Thread[Thread-11,2,main] tid=4 pid=1)
+threadOS: a new thread (thread=Thread[Thread-13,2,main] tid=5 pid=1)
+threadOS: a new thread (thread=Thread[Thread-15,2,main] tid=6 pid=1)
+Thread[b]: response time = 2996 turnaround time = 3997 execution time = 1001
+Thread[e]: response time = 5996 turnaround time = 6496 execution time = 500
+Thread[c]: response time = 3997 turnaround time = 6999 execution time = 3002
+Thread[a]: response time = 1996 turnaround time = 7000 execution time = 5004
+Thread[d]: response time = 4996 turnaround time = 11000 execution time = 6004
+-->q
+q
+Superblock synchronized
+ctran206@uw1-320-06:~/CSS430/P2/ThreadOS_P2$ exit
+
+Script done on Thu 01 May 2014 10:02:11 AM PDT
