@@ -1,0 +1,27 @@
+Script started on Sat 09 Nov 2013 04:03:33 PM PST
+]0;ctran206@uw1-320-19:~/CSS342B/LAB4[ctran206@uw1-320-19 LAB4]$ g=[K++ lab4[K[K[K[K[K[K[K[Kg++ lab4.cpp prefix.cpp
+]0;ctran206@uw1-320-19:~/CSS342B/LAB4[ctran206@uw1-320-19 LAB4]$ valgrind ./a.out [K
+==854== Memcheck, a memory error detector
+==854== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==854== Using Valgrind-3.5.0 and LibVEX; rerun with -h for copyright info
+==854== Command: ./a.out
+==854== 
+Prefix Expression = Answer
+--------------------------
++23 = 5       As postfix:  23+
+/50 = 0       As postfix:  50/
+-+231 = 4       As postfix:  23+1-
+*+51-24 = -12       As postfix:  51+24-*
+/*+91-42+53 = 2       As postfix:  91+42-*53+/
+==854== 
+==854== HEAP SUMMARY:
+==854==     in use at exit: 0 bytes in 0 blocks
+==854==   total heap usage: 2 allocs, 2 frees, 8,544 bytes allocated
+==854== 
+==854== All heap blocks were freed -- no leaks are possible
+==854== 
+==854== For counts of detected and suppressed errors, rerun with: -v
+==854== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 15 from 8)
+]0;ctran206@uw1-320-19:~/CSS342B/LAB4[ctran206@uw1-320-19 LAB4]$ exit
+
+Script done on Sat 09 Nov 2013 04:04:55 PM PST

@@ -1,0 +1,4 @@
+﻿  lab1.cpp
+c:\users\christopher\skydrive\school\uw\css 342b\lab1\lab1\lab1\lab1.cpp(30): error C2234: 'students' : arrays of references are illegal
+c:\users\christopher\skydrive\school\uw\css 342b\lab1\lab1\lab1\lab1.cpp(56): error C2664: 'displayList' : cannot convert parameter 1 from 'StudentType [100]' to 'const StudentType *[]'
+          Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast

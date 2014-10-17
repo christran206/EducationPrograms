@@ -1,0 +1,178 @@
+Script started on Thu 05 Dec 2013 08:51:35 PM PST
+]0;ctran206@uw1-320-20:~/CSS342B/LAB5[ctran206@uw1-320-20 LAB5]$ valgrind ./a.out [8Pg++ *.cpp
+]0;ctran206@uw1-320-20:~/CSS342B/LAB5[ctran206@uw1-320-20 LAB5]$ g++ *.cppvalgrind ./a.out 
+==20197== Memcheck, a memory error detector
+==20197== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==20197== Using Valgrind-3.5.0 and LibVEX; rerun with -h for copyright info
+==20197== Command: ./a.out
+==20197== 
+Withdrawal not performed on Money Market fund for client 6666
+     insufficient funds
+
+Withdrawal not performed on Money Market fund for client 6666
+     insufficient funds
+
+Withdrawal not performed on Prime Money Market fund for client 6666
+     insufficient funds
+
+Unknown transaction type 'Z' requested
+
+Deposit not performed to Prime Money Market fund for client 9999
+     Unknown client ID 9999 requested
+
+Move not performed to Prime Money Market fund for client 1000
+     Unknown client ID 1000 requested
+
+Move not performed from Prime Money Market fund for client 9999
+     Unknown client ID 9999 requested
+
+History of trancactions for client mickey mouse, client ID = 1234
+Type      Amount  Detail
+--------- ------- --------------------------------------
+Deposit   $   100 into Prime Money Market fund
+Move      $  1000 from Prime Money Market fund
+                  to Long-Term Bond fund for client 3000
+Deposit   $   500 into Long-Term Bond fund
+Withdraw  $    20 from Money Market fund
+
+History of trancactions for client minnie mouse, client ID = 3000
+Type      Amount  Detail
+--------- ------- --------------------------------------
+Deposit   $  1000 into Long-Term Bond fund
+Deposit   $  1000 into Long-Term Bond fund
+Move      $   300 from Prime Money Market fund
+                  to Money Market fund for client 6000
+Move      $   500 from Prime Money Market fund
+                  to Long-Term Bond fund for client 1234
+Withdraw  $  5000 from Prime Money Market fund
+Withdraw  $   100 from Money Market fund
+Withdraw  $   100 from Money Market fund
+Deposit   $  1000 into Capital Value Fund fund
+Withdraw  $  1000 from Capital Value Fund fund
+Withdraw  $    20 from Prime Money Market fund
+
+==20197== Invalid read of size 4
+==20197==    at 0x804D5BC: QueueProcessor::runQueue(ClientList&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804C1B1: Firm::sendToProcessor(std::basic_ifstream<char, std::char_traits<char> >&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804E43F: main (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==  Address 0x40298f8 is 496 bytes inside a block of size 512 free'd
+==20197==    at 0x40054B4: operator delete(void*) (vg_replace_malloc.c:346)
+==20197==    by 0x804B45C: __gnu_cxx::new_allocator<Transaction>::deallocate(Transaction*, unsigned int) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B48B: std::_Deque_base<Transaction, std::allocator<Transaction> >::_M_deallocate_node(Transaction*) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B567: std::deque<Transaction, std::allocator<Transaction> >::_M_pop_front_aux() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B5DB: std::deque<Transaction, std::allocator<Transaction> >::pop_front() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B5EE: std::queue<Transaction, std::deque<Transaction, std::allocator<Transaction> > >::pop() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804EFDB: TransQueue::getTransaction() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804D5B9: QueueProcessor::runQueue(ClientList&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804C1B1: Firm::sendToProcessor(std::basic_ifstream<char, std::char_traits<char> >&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804E43F: main (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197== 
+==20197== Invalid read of size 4
+==20197==    at 0x804D5C1: QueueProcessor::runQueue(ClientList&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804C1B1: Firm::sendToProcessor(std::basic_ifstream<char, std::char_traits<char> >&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804E43F: main (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==  Address 0x40298fc is 500 bytes inside a block of size 512 free'd
+==20197==    at 0x40054B4: operator delete(void*) (vg_replace_malloc.c:346)
+==20197==    by 0x804B45C: __gnu_cxx::new_allocator<Transaction>::deallocate(Transaction*, unsigned int) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B48B: std::_Deque_base<Transaction, std::allocator<Transaction> >::_M_deallocate_node(Transaction*) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B567: std::deque<Transaction, std::allocator<Transaction> >::_M_pop_front_aux() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B5DB: std::deque<Transaction, std::allocator<Transaction> >::pop_front() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B5EE: std::queue<Transaction, std::deque<Transaction, std::allocator<Transaction> > >::pop() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804EFDB: TransQueue::getTransaction() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804D5B9: QueueProcessor::runQueue(ClientList&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804C1B1: Firm::sendToProcessor(std::basic_ifstream<char, std::char_traits<char> >&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804E43F: main (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197== 
+==20197== Invalid read of size 4
+==20197==    at 0x804D5C7: QueueProcessor::runQueue(ClientList&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804C1B1: Firm::sendToProcessor(std::basic_ifstream<char, std::char_traits<char> >&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804E43F: main (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==  Address 0x4029900 is 504 bytes inside a block of size 512 free'd
+==20197==    at 0x40054B4: operator delete(void*) (vg_replace_malloc.c:346)
+==20197==    by 0x804B45C: __gnu_cxx::new_allocator<Transaction>::deallocate(Transaction*, unsigned int) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B48B: std::_Deque_base<Transaction, std::allocator<Transaction> >::_M_deallocate_node(Transaction*) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B567: std::deque<Transaction, std::allocator<Transaction> >::_M_pop_front_aux() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B5DB: std::deque<Transaction, std::allocator<Transaction> >::pop_front() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B5EE: std::queue<Transaction, std::deque<Transaction, std::allocator<Transaction> > >::pop() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804EFDB: TransQueue::getTransaction() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804D5B9: QueueProcessor::runQueue(ClientList&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804C1B1: Firm::sendToProcessor(std::basic_ifstream<char, std::char_traits<char> >&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804E43F: main (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197== 
+==20197== Invalid read of size 4
+==20197==    at 0x804D5CD: QueueProcessor::runQueue(ClientList&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804C1B1: Firm::sendToProcessor(std::basic_ifstream<char, std::char_traits<char> >&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804E43F: main (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==  Address 0x4029904 is 508 bytes inside a block of size 512 free'd
+==20197==    at 0x40054B4: operator delete(void*) (vg_replace_malloc.c:346)
+==20197==    by 0x804B45C: __gnu_cxx::new_allocator<Transaction>::deallocate(Transaction*, unsigned int) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B48B: std::_Deque_base<Transaction, std::allocator<Transaction> >::_M_deallocate_node(Transaction*) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B567: std::deque<Transaction, std::allocator<Transaction> >::_M_pop_front_aux() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B5DB: std::deque<Transaction, std::allocator<Transaction> >::pop_front() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804B5EE: std::queue<Transaction, std::deque<Transaction, std::allocator<Transaction> > >::pop() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804EFDB: TransQueue::getTransaction() (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804D5B9: QueueProcessor::runQueue(ClientList&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804C1B1: Firm::sendToProcessor(std::basic_ifstream<char, std::char_traits<char> >&) (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197==    by 0x804E43F: main (in /net/metis/home2/ctran206/CSS342B/LAB5/a.out)
+==20197== 
+History not available for client 9999
+     Unknown client ID 9999 requested
+
+REPORT
+
+1111  sammy spider
+Initial Balances:   4000   500     0     0     0     0     0     0     0     0
+Final Balances:     4000   500     0     0     0     0     0     0     0     0
+
+1234  mickey mouse
+Initial Balances:  20500  1000     0     0     0     0   500     0     0     0
+Final Balances:    20480   100   500     0     0     0   500     0     0     0
+
+2222  donald duck
+Initial Balances:  10000   500     0     0     0     0     0     0     0     0
+Final Balances:    10000   500     0     0     0     0     0     0     0     0
+
+2500  freddie frog
+Initial Balances:  38000  3000     0     0  2000     0     0     0     0     0
+Final Balances:    38000  3000     0     0  2000 10000     0     0     0     0
+
+3000  minnie mouse
+Initial Balances:  35000  2000 50000   400     0     0  4000     0     0  3000
+Final Balances:    30980     0 52000   400     0     0  4000     0     0  3000
+
+4200  bertha bear
+Initial Balances:   8000  1000     0     0     0     0     0     0     0     0
+Final Balances:     8275  1000     0     0     0     0     0     0     0     0
+
+5555  daffy duck
+Initial Balances:   4500   500     0     0     0     0     0     0     0     0
+Final Balances:      100     0     0     0     0     0     0     0     0     0
+
+6000  porky pig
+Initial Balances:  30000  1000     0     0     0     0     0     0     0     0
+Final Balances:    30300  8000     0     0     0     0     0     0     0     0
+
+6666  darrell donkey
+Initial Balances:     10   100     0     0  1000     0     0     0     0     0
+Final Balances:       30   100     0     0  1000     0     0     0     0     0
+
+7000  wicked witch
+Initial Balances:   5000   300     0     0   500     0     0     0     0     0
+Final Balances:     5000   300     0     0   500     0     0     0     0     0
+
+8888  larry lizard
+Initial Balances:   4500  2000     0     0     0     0     0     0     0     0
+Final Balances:     4500  2000     0     0     0     0     0     0     0     0
+
+==20197== 
+==20197== HEAP SUMMARY:
+==20197==     in use at exit: 0 bytes in 0 blocks
+==20197==   total heap usage: 283 allocs, 283 frees, 36,988 bytes allocated
+==20197== 
+==20197== All heap blocks were freed -- no leaks are possible
+==20197== 
+==20197== For counts of detected and suppressed errors, rerun with: -v
+==20197== ERROR SUMMARY: 4 errors from 4 contexts (suppressed: 15 from 8)
+]0;ctran206@uw1-320-20:~/CSS342B/LAB5[ctran206@uw1-320-20 LAB5]$ exit
+
+Script done on Thu 05 Dec 2013 08:51:49 PM PST

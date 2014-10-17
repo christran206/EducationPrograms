@@ -1,0 +1,29 @@
+Script started on Mon 07 Oct 2013 07:18:47 PM PDT
+]0;ctran206@uw1-320-21:~/CSS342B[ctran206@uw1-320-21 CSS342B]$ g++ lab1.cpp 
+]0;ctran206@uw1-320-21:~/CSS342B[ctran206@uw1-320-21 CSS342B]$ ,/a.out[K[K[K[K[K[K[K/[K./a.out 
+List of names sorted:
+ 65  duck donald
+ 60  frog freddie
+ 71  ghost casper
+ 85  mouse abby
+ 73  mouse mickey
+ 95  mouse minnie
+
+Histogram of grades:
+  0-->   9: 
+ 10-->  19: 
+ 20-->  29: 
+ 30-->  39: 
+ 40-->  49: 
+ 50-->  59: 
+ 60-->  69: **
+ 70-->  79: **
+ 80-->  89: *
+ 90-->  99: *
+100--> 100: 
+
+Average grade: 74
+
+]0;ctran206@uw1-320-21:~/CSS342B[ctran206@uw1-320-21 CSS342B]$ exit
+
+Script done on Mon 07 Oct 2013 07:19:03 PM PDT

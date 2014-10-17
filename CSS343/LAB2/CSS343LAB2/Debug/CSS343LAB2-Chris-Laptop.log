@@ -1,0 +1,3 @@
+﻿  bintree.cpp
+c:\users\christopher\skydrive\school\uw\css 343b\css343lab2\css343lab2\bintree.cpp(435): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+  CSS343LAB2.vcxproj -> C:\Users\Christopher\SkyDrive\School\UW\CSS 343B\CSS343LAB2\Debug\CSS343LAB2.exe

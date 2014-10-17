@@ -1,0 +1,8 @@
+frog freddie 60
+duck donald 65
+mouse minnie 95
+mouse mickey 73
+error check -10
+error check 101
+ghost casper 71
+mouse abby 85

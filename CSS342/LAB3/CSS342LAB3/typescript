@@ -1,0 +1,725 @@
+Script started on Sun 27 Oct 2013 02:09:02 PM PDT
+Disk quotas for user ctran206 (uid 5050): 
+     Filesystem  blocks   quota   limit   grace   files   quota   limit   grace
+   metis:/home2     340   1000M   1100M              44       0       0        
+
+Active processes on uw1-320-22 for user ctran206:
+  PID TT       %CPU %MEM     TIME COMMAND
+15921 ?         0.0  0.1 00:00:00 sshd: ctran206@pts/0
+15922 pts/0     0.0  0.0 00:00:00 -bash
+19842 pts/0     0.0  0.0 00:00:00 script
+19844 pts/0     0.0  0.0 00:00:00 script
+
+]0;ctran206@uw1-320-22:~/CSS342B/LAB3[ctran206@uw1-320-22 LAB3]$ valgrind ./a.outg++ lab3.cpp nodedata.cpp employee.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pvalgrind ./a.outg++ lab3.cpp nodedata.cpp employee.cpp
+]0;ctran206@uw1-320-22:~/CSS342B/LAB3[ctran206@uw1-320-22 LAB3]$ g++ lab3.cpp nodedata.cpp employee.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pvalgrind ./a.out
+==19908== Memcheck, a memory error detector
+==19908== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==19908== Using Valgrind-3.5.0 and LibVEX; rerun with -h for copyright info
+==19908== Command: ./a.out
+==19908== 
+mylist:
+10 f
+16 u
+20 n
+25 !
+
+mylist2:
+14 s
+15 t
+16 u
+18 f
+19 f
+25 !
+
+mylist3:
+16 u
+25 !
+
+test -- merge 1 and 2 into 5
+----------------------------
+Company1:
+  89  36444  Basil Lloyd
+  93  44412  Bernard Gould
+  17  61059  Blaze Henson
+  61  41229  Branden Olsen
+  81  61516  Caldwell Hays
+  37  54066  Chester Mcconnell
+  13  37758  Driscoll Kennedy
+  57  69169  Dustin Dalton
+  25  67177  Ferdinand Robbins
+  41  62934  Galvin Huber
+   5  62938  Graham Duncan
+  73  58823  Guy Sawyer
+  77  28250  Hector Austin
+  21  45501  Hop Mercer
+  49   2581  Isaiah Rush
+  69  68315  Lars Walker
+  97  60574  Lawrence Nguyen
+  45   8280  Macaulay Snow
+  65  24874  Nigel Barnes
+  53  38932  Richard Bruce
+   1  21441  Stephen Burnett
+  33   3497  Tarik Steele
+  29  60814  Theodore Mcdowell
+   9  25770  Vladimir Vaughn
+  85  50967  Zephania Bean
+
+Company2:
+ 193  21762  Andrew Mack
+ 105  40229  August Kirk
+ 117  23980  Baker Witt
+ 125  57480  Dante Cantrell
+ 153  20664  Dean Doyle
+ 145  46333  Dexter Maddox
+ 177   4175  Dieter Hancock
+ 113  22227  Drake Lewis
+ 197  46240  Eagan Bryant
+ 189   3292  Elton Faulkner
+ 169  56972  Emery Williamson
+ 109  35330  Gavin Bullock
+ 133  49730  Gray George
+ 121  53584  Hector Cardenas
+ 101  37419  Jonah Rodriguez
+ 157  19289  Kane Gentry
+ 165  40086  Keefe Barr
+ 181  39593  Lars Clemons
+ 173   8024  Linus Harding
+ 185   7007  Nicholas Irwin
+ 141   9314  Randall Jordan
+ 149  54845  Reuben Watson
+ 161  29785  Slade Roberson
+ 129  23604  Vance Dean
+ 137  25114  Zeph Waters
+
+company1 is empty
+company2 is empty
+Company5:
+ 193  21762  Andrew Mack
+ 105  40229  August Kirk
+ 117  23980  Baker Witt
+  89  36444  Basil Lloyd
+  93  44412  Bernard Gould
+  17  61059  Blaze Henson
+  61  41229  Branden Olsen
+  81  61516  Caldwell Hays
+  37  54066  Chester Mcconnell
+ 125  57480  Dante Cantrell
+ 153  20664  Dean Doyle
+ 145  46333  Dexter Maddox
+ 177   4175  Dieter Hancock
+ 113  22227  Drake Lewis
+  13  37758  Driscoll Kennedy
+  57  69169  Dustin Dalton
+ 197  46240  Eagan Bryant
+ 189   3292  Elton Faulkner
+ 169  56972  Emery Williamson
+  25  67177  Ferdinand Robbins
+  41  62934  Galvin Huber
+ 109  35330  Gavin Bullock
+   5  62938  Graham Duncan
+ 133  49730  Gray George
+  73  58823  Guy Sawyer
+  77  28250  Hector Austin
+ 121  53584  Hector Cardenas
+  21  45501  Hop Mercer
+  49   2581  Isaiah Rush
+ 101  37419  Jonah Rodriguez
+ 157  19289  Kane Gentry
+ 165  40086  Keefe Barr
+ 181  39593  Lars Clemons
+  69  68315  Lars Walker
+  97  60574  Lawrence Nguyen
+ 173   8024  Linus Harding
+  45   8280  Macaulay Snow
+ 185   7007  Nicholas Irwin
+  65  24874  Nigel Barnes
+ 141   9314  Randall Jordan
+ 149  54845  Reuben Watson
+  53  38932  Richard Bruce
+ 161  29785  Slade Roberson
+   1  21441  Stephen Burnett
+  33   3497  Tarik Steele
+  29  60814  Theodore Mcdowell
+ 129  23604  Vance Dean
+   9  25770  Vladimir Vaughn
+ 137  25114  Zeph Waters
+  85  50967  Zephania Bean
+
+test == 
+--------
+Company10:
+ 261  65380  Alec Mosley
+ 253  50283  Arsenio Young
+ 269  34218  Chester Huber
+ 213  59667  Cody Knight
+ 245  22081  Conan Freeman
+ 237  57674  Cooper Santos
+ 273  71253  Drake Herrera
+ 217  14195  Dustin Roth
+ 221  27394  Evan Hendricks
+ 265  74542  Gareth Lambert
+ 285  34643  Hilel Potter
+ 209  31233  Hop Stevenson
+ 297  40577  Kane Gallegos
+ 201  29976  Kane Wilkins
+ 249  12921  Mannix Robbins
+ 281  11677  Nigel Kim
+ 289  18291  Oliver Hatfield
+ 241  55658  Scott Guy
+ 257  35398  Silas Francis
+ 225  61683  Solomon Burton
+ 293  18094  Thaddeus Hyde
+ 229   8789  Vaughan Hubbard
+ 205  32985  Vernon Lott
+ 277  57810  Wang Mueller
+ 233  49545  William Kirk
+
+Company11:
+ 261  65380  Alec Mosley
+ 253  50283  Arsenio Young
+ 269  34218  Chester Huber
+ 213  59667  Cody Knight
+ 245  22081  Conan Freeman
+ 237  57674  Cooper Santos
+ 273  71253  Drake Herrera
+ 217  14195  Dustin Roth
+ 221  27394  Evan Hendricks
+ 265  74542  Gareth Lambert
+ 285  34643  Hilel Potter
+ 209  31233  Hop Stevenson
+ 297  40577  Kane Gallegos
+ 201  29976  Kane Wilkins
+ 249  12921  Mannix Robbins
+ 281  11677  Nigel Kim
+ 289  18291  Oliver Hatfield
+ 241  55658  Scott Guy
+ 257  35398  Silas Francis
+ 225  61683  Solomon Burton
+ 293  18094  Thaddeus Hyde
+ 229   8789  Vaughan Hubbard
+ 205  32985  Vernon Lott
+ 277  57810  Wang Mueller
+ 233  49545  William Kirk
+
+company10 equals company11
+Company11:
+ 261  65380  Alec Mosley
+ 253  50283  Arsenio Young
+ 269  34218  Chester Huber
+ 213  59667  Cody Knight
+ 245  22081  Conan Freeman
+ 237  57674  Cooper Santos
+ 273  71253  Drake Herrera
+ 217  14195  Dustin Roth
+ 221  27394  Evan Hendricks
+ 265  74542  Gareth Lambert
+ 285  34643  Hilel Potter
+ 209  31233  Hop Stevenson
+ 297  40577  Kane Gallegos
+ 201  29976  Kane Wilkins
+ 249  12921  Mannix Robbins
+ 281  11677  Nigel Kim
+ 289  18291  Oliver Hatfield
+ 241  55658  Scott Guy
+ 257  35398  Silas Francis
+ 225  61683  Solomon Burton
+ 293  18094  Thaddeus Hyde
+ 229   8789  Vaughan Hubbard
+ 205  32985  Vernon Lott
+ 277  57810  Wang Mueller
+ 233  49545  William Kirk
+
+company10 equals company11
+test == and !=: merge 7 and 8 into 9 (same as 5)
+------------------------------------------------
+Company7:
+  89  36444  Basil Lloyd
+  93  44412  Bernard Gould
+  17  61059  Blaze Henson
+  61  41229  Branden Olsen
+  81  61516  Caldwell Hays
+  37  54066  Chester Mcconnell
+  13  37758  Driscoll Kennedy
+  57  69169  Dustin Dalton
+  25  67177  Ferdinand Robbins
+  41  62934  Galvin Huber
+   5  62938  Graham Duncan
+  73  58823  Guy Sawyer
+  77  28250  Hector Austin
+  21  45501  Hop Mercer
+  49   2581  Isaiah Rush
+  69  68315  Lars Walker
+  97  60574  Lawrence Nguyen
+  45   8280  Macaulay Snow
+  65  24874  Nigel Barnes
+  53  38932  Richard Bruce
+   1  21441  Stephen Burnett
+  33   3497  Tarik Steele
+  29  60814  Theodore Mcdowell
+   9  25770  Vladimir Vaughn
+  85  50967  Zephania Bean
+
+Company8:
+ 193  21762  Andrew Mack
+ 105  40229  August Kirk
+ 117  23980  Baker Witt
+ 125  57480  Dante Cantrell
+ 153  20664  Dean Doyle
+ 145  46333  Dexter Maddox
+ 177   4175  Dieter Hancock
+ 113  22227  Drake Lewis
+ 197  46240  Eagan Bryant
+ 189   3292  Elton Faulkner
+ 169  56972  Emery Williamson
+ 109  35330  Gavin Bullock
+ 133  49730  Gray George
+ 121  53584  Hector Cardenas
+ 101  37419  Jonah Rodriguez
+ 157  19289  Kane Gentry
+ 165  40086  Keefe Barr
+ 181  39593  Lars Clemons
+ 173   8024  Linus Harding
+ 185   7007  Nicholas Irwin
+ 141   9314  Randall Jordan
+ 149  54845  Reuben Watson
+ 161  29785  Slade Roberson
+ 129  23604  Vance Dean
+ 137  25114  Zeph Waters
+
+Company9:
+ 193  21762  Andrew Mack
+ 105  40229  August Kirk
+ 117  23980  Baker Witt
+  89  36444  Basil Lloyd
+  93  44412  Bernard Gould
+  17  61059  Blaze Henson
+  61  41229  Branden Olsen
+  81  61516  Caldwell Hays
+  37  54066  Chester Mcconnell
+ 125  57480  Dante Cantrell
+ 153  20664  Dean Doyle
+ 145  46333  Dexter Maddox
+ 177   4175  Dieter Hancock
+ 113  22227  Drake Lewis
+  13  37758  Driscoll Kennedy
+  57  69169  Dustin Dalton
+ 197  46240  Eagan Bryant
+ 189   3292  Elton Faulkner
+ 169  56972  Emery Williamson
+  25  67177  Ferdinand Robbins
+  41  62934  Galvin Huber
+ 109  35330  Gavin Bullock
+   5  62938  Graham Duncan
+ 133  49730  Gray George
+  73  58823  Guy Sawyer
+  77  28250  Hector Austin
+ 121  53584  Hector Cardenas
+  21  45501  Hop Mercer
+  49   2581  Isaiah Rush
+ 101  37419  Jonah Rodriguez
+ 157  19289  Kane Gentry
+ 165  40086  Keefe Barr
+ 181  39593  Lars Clemons
+  69  68315  Lars Walker
+  97  60574  Lawrence Nguyen
+ 173   8024  Linus Harding
+  45   8280  Macaulay Snow
+ 185   7007  Nicholas Irwin
+  65  24874  Nigel Barnes
+ 141   9314  Randall Jordan
+ 149  54845  Reuben Watson
+  53  38932  Richard Bruce
+ 161  29785  Slade Roberson
+   1  21441  Stephen Burnett
+  33   3497  Tarik Steele
+  29  60814  Theodore Mcdowell
+ 129  23604  Vance Dean
+   9  25770  Vladimir Vaughn
+ 137  25114  Zeph Waters
+  85  50967  Zephania Bean
+
+company5 equals company9
+company5 equals company9
+test -- merge 3 and 4 into 4
+----------------------------
+Company3:
+ 261  65380  Alec Mosley
+ 253  50283  Arsenio Young
+ 269  34218  Chester Huber
+ 213  59667  Cody Knight
+ 245  22081  Conan Freeman
+ 237  57674  Cooper Santos
+ 273  71253  Drake Herrera
+ 217  14195  Dustin Roth
+ 221  27394  Evan Hendricks
+ 265  74542  Gareth Lambert
+ 285  34643  Hilel Potter
+ 209  31233  Hop Stevenson
+ 297  40577  Kane Gallegos
+ 201  29976  Kane Wilkins
+ 249  12921  Mannix Robbins
+ 281  11677  Nigel Kim
+ 289  18291  Oliver Hatfield
+ 241  55658  Scott Guy
+ 257  35398  Silas Francis
+ 225  61683  Solomon Burton
+ 293  18094  Thaddeus Hyde
+ 229   8789  Vaughan Hubbard
+ 205  32985  Vernon Lott
+ 277  57810  Wang Mueller
+ 233  49545  William Kirk
+
+Company4:
+ 301  14912  Adrian Gordon
+ 321  54159  Allistair Vance
+ 337  48164  Barclay Maldonado
+ 389  33877  Benjamin Montoya
+ 365  30724  Bruce Castaneda
+ 325  34628  Carson Guzman
+ 357   9369  Christopher Walsh
+ 317  17414  Dean Conway
+ 313  42920  Elmo Dixon
+ 385   8914  Gabriel Cannon
+ 381  48605  Garrett Gilmore
+ 361   3271  Hall Wilson
+ 373  38939  Hasad Morin
+ 349  50563  Jack Gill
+ 369  38806  Kevin Rodriguez
+ 341  74203  Lee Mayer
+ 329  63808  Levi Bryan
+ 353  68358  Lucian Newton
+ 397   4667  Maxwell Joyce
+ 377   6405  Owen Pierce
+ 393   9210  Phillip Ewing
+ 345  54941  Randall Hunt
+ 333  24430  Silas Acevedo
+ 309  12434  Tad Walters
+ 305  52696  Tanner Powers
+
+company3 is empty
+Company4:
+ 301  14912  Adrian Gordon
+ 261  65380  Alec Mosley
+ 321  54159  Allistair Vance
+ 253  50283  Arsenio Young
+ 337  48164  Barclay Maldonado
+ 389  33877  Benjamin Montoya
+ 365  30724  Bruce Castaneda
+ 325  34628  Carson Guzman
+ 269  34218  Chester Huber
+ 357   9369  Christopher Walsh
+ 213  59667  Cody Knight
+ 245  22081  Conan Freeman
+ 237  57674  Cooper Santos
+ 317  17414  Dean Conway
+ 273  71253  Drake Herrera
+ 217  14195  Dustin Roth
+ 313  42920  Elmo Dixon
+ 221  27394  Evan Hendricks
+ 385   8914  Gabriel Cannon
+ 265  74542  Gareth Lambert
+ 381  48605  Garrett Gilmore
+ 361   3271  Hall Wilson
+ 373  38939  Hasad Morin
+ 285  34643  Hilel Potter
+ 209  31233  Hop Stevenson
+ 349  50563  Jack Gill
+ 297  40577  Kane Gallegos
+ 201  29976  Kane Wilkins
+ 369  38806  Kevin Rodriguez
+ 341  74203  Lee Mayer
+ 329  63808  Levi Bryan
+ 353  68358  Lucian Newton
+ 249  12921  Mannix Robbins
+ 397   4667  Maxwell Joyce
+ 281  11677  Nigel Kim
+ 289  18291  Oliver Hatfield
+ 377   6405  Owen Pierce
+ 393   9210  Phillip Ewing
+ 345  54941  Randall Hunt
+ 241  55658  Scott Guy
+ 333  24430  Silas Acevedo
+ 257  35398  Silas Francis
+ 225  61683  Solomon Burton
+ 309  12434  Tad Walters
+ 305  52696  Tanner Powers
+ 293  18094  Thaddeus Hyde
+ 229   8789  Vaughan Hubbard
+ 205  32985  Vernon Lott
+ 277  57810  Wang Mueller
+ 233  49545  William Kirk
+
+test -- merge empty 3 and 4 into 4, no change to 4
+--------------------------------------------------
+Company3:
+
+Company4:
+ 301  14912  Adrian Gordon
+ 261  65380  Alec Mosley
+ 321  54159  Allistair Vance
+ 253  50283  Arsenio Young
+ 337  48164  Barclay Maldonado
+ 389  33877  Benjamin Montoya
+ 365  30724  Bruce Castaneda
+ 325  34628  Carson Guzman
+ 269  34218  Chester Huber
+ 357   9369  Christopher Walsh
+ 213  59667  Cody Knight
+ 245  22081  Conan Freeman
+ 237  57674  Cooper Santos
+ 317  17414  Dean Conway
+ 273  71253  Drake Herrera
+ 217  14195  Dustin Roth
+ 313  42920  Elmo Dixon
+ 221  27394  Evan Hendricks
+ 385   8914  Gabriel Cannon
+ 265  74542  Gareth Lambert
+ 381  48605  Garrett Gilmore
+ 361   3271  Hall Wilson
+ 373  38939  Hasad Morin
+ 285  34643  Hilel Potter
+ 209  31233  Hop Stevenson
+ 349  50563  Jack Gill
+ 297  40577  Kane Gallegos
+ 201  29976  Kane Wilkins
+ 369  38806  Kevin Rodriguez
+ 341  74203  Lee Mayer
+ 329  63808  Levi Bryan
+ 353  68358  Lucian Newton
+ 249  12921  Mannix Robbins
+ 397   4667  Maxwell Joyce
+ 281  11677  Nigel Kim
+ 289  18291  Oliver Hatfield
+ 377   6405  Owen Pierce
+ 393   9210  Phillip Ewing
+ 345  54941  Randall Hunt
+ 241  55658  Scott Guy
+ 333  24430  Silas Acevedo
+ 257  35398  Silas Francis
+ 225  61683  Solomon Burton
+ 309  12434  Tad Walters
+ 305  52696  Tanner Powers
+ 293  18094  Thaddeus Hyde
+ 229   8789  Vaughan Hubbard
+ 205  32985  Vernon Lott
+ 277  57810  Wang Mueller
+ 233  49545  William Kirk
+
+company3 is empty
+Company4 again (same):
+ 301  14912  Adrian Gordon
+ 261  65380  Alec Mosley
+ 321  54159  Allistair Vance
+ 253  50283  Arsenio Young
+ 337  48164  Barclay Maldonado
+ 389  33877  Benjamin Montoya
+ 365  30724  Bruce Castaneda
+ 325  34628  Carson Guzman
+ 269  34218  Chester Huber
+ 357   9369  Christopher Walsh
+ 213  59667  Cody Knight
+ 245  22081  Conan Freeman
+ 237  57674  Cooper Santos
+ 317  17414  Dean Conway
+ 273  71253  Drake Herrera
+ 217  14195  Dustin Roth
+ 313  42920  Elmo Dixon
+ 221  27394  Evan Hendricks
+ 385   8914  Gabriel Cannon
+ 265  74542  Gareth Lambert
+ 381  48605  Garrett Gilmore
+ 361   3271  Hall Wilson
+ 373  38939  Hasad Morin
+ 285  34643  Hilel Potter
+ 209  31233  Hop Stevenson
+ 349  50563  Jack Gill
+ 297  40577  Kane Gallegos
+ 201  29976  Kane Wilkins
+ 369  38806  Kevin Rodriguez
+ 341  74203  Lee Mayer
+ 329  63808  Levi Bryan
+ 353  68358  Lucian Newton
+ 249  12921  Mannix Robbins
+ 397   4667  Maxwell Joyce
+ 281  11677  Nigel Kim
+ 289  18291  Oliver Hatfield
+ 377   6405  Owen Pierce
+ 393   9210  Phillip Ewing
+ 345  54941  Randall Hunt
+ 241  55658  Scott Guy
+ 333  24430  Silas Acevedo
+ 257  35398  Silas Francis
+ 225  61683  Solomon Burton
+ 309  12434  Tad Walters
+ 305  52696  Tanner Powers
+ 293  18094  Thaddeus Hyde
+ 229   8789  Vaughan Hubbard
+ 205  32985  Vernon Lott
+ 277  57810  Wang Mueller
+ 233  49545  William Kirk
+
+test -- merge 4 and empty 3 into 4, no change to 4
+--------------------------------------------------
+company3 is empty
+Company4 again (same):
+ 301  14912  Adrian Gordon
+ 261  65380  Alec Mosley
+ 321  54159  Allistair Vance
+ 253  50283  Arsenio Young
+ 337  48164  Barclay Maldonado
+ 389  33877  Benjamin Montoya
+ 365  30724  Bruce Castaneda
+ 325  34628  Carson Guzman
+ 269  34218  Chester Huber
+ 357   9369  Christopher Walsh
+ 213  59667  Cody Knight
+ 245  22081  Conan Freeman
+ 237  57674  Cooper Santos
+ 317  17414  Dean Conway
+ 273  71253  Drake Herrera
+ 217  14195  Dustin Roth
+ 313  42920  Elmo Dixon
+ 221  27394  Evan Hendricks
+ 385   8914  Gabriel Cannon
+ 265  74542  Gareth Lambert
+ 381  48605  Garrett Gilmore
+ 361   3271  Hall Wilson
+ 373  38939  Hasad Morin
+ 285  34643  Hilel Potter
+ 209  31233  Hop Stevenson
+ 349  50563  Jack Gill
+ 297  40577  Kane Gallegos
+ 201  29976  Kane Wilkins
+ 369  38806  Kevin Rodriguez
+ 341  74203  Lee Mayer
+ 329  63808  Levi Bryan
+ 353  68358  Lucian Newton
+ 249  12921  Mannix Robbins
+ 397   4667  Maxwell Joyce
+ 281  11677  Nigel Kim
+ 289  18291  Oliver Hatfield
+ 377   6405  Owen Pierce
+ 393   9210  Phillip Ewing
+ 345  54941  Randall Hunt
+ 241  55658  Scott Guy
+ 333  24430  Silas Acevedo
+ 257  35398  Silas Francis
+ 225  61683  Solomon Burton
+ 309  12434  Tad Walters
+ 305  52696  Tanner Powers
+ 293  18094  Thaddeus Hyde
+ 229   8789  Vaughan Hubbard
+ 205  32985  Vernon Lott
+ 277  57810  Wang Mueller
+ 233  49545  William Kirk
+
+test -- merge 6 and empty 3 into 4
+----------------------------------
+company3 is empty
+company6 is empty
+Company4:
+ 301  14912  Adrian Gordon
+ 321  54159  Allistair Vance
+ 337  48164  Barclay Maldonado
+ 389  33877  Benjamin Montoya
+ 365  30724  Bruce Castaneda
+ 325  34628  Carson Guzman
+ 357   9369  Christopher Walsh
+ 317  17414  Dean Conway
+ 313  42920  Elmo Dixon
+ 385   8914  Gabriel Cannon
+ 381  48605  Garrett Gilmore
+ 361   3271  Hall Wilson
+ 373  38939  Hasad Morin
+ 349  50563  Jack Gill
+ 369  38806  Kevin Rodriguez
+ 341  74203  Lee Mayer
+ 329  63808  Levi Bryan
+ 353  68358  Lucian Newton
+ 397   4667  Maxwell Joyce
+ 377   6405  Owen Pierce
+ 393   9210  Phillip Ewing
+ 345  54941  Randall Hunt
+ 333  24430  Silas Acevedo
+ 309  12434  Tad Walters
+ 305  52696  Tanner Powers
+
+test remove and retrieve on 4
+-----------------------------
+Did not find aaaaa in list
+Did not find zzzzz in list
+Did not find ghost in list
+Did not find rella in list
+Did not find bear in list
+Company4 after removes:
+ 301  14912  Adrian Gordon
+ 321  54159  Allistair Vance
+ 337  48164  Barclay Maldonado
+ 389  33877  Benjamin Montoya
+ 365  30724  Bruce Castaneda
+ 325  34628  Carson Guzman
+ 357   9369  Christopher Walsh
+ 317  17414  Dean Conway
+ 313  42920  Elmo Dixon
+ 385   8914  Gabriel Cannon
+ 381  48605  Garrett Gilmore
+ 361   3271  Hall Wilson
+ 373  38939  Hasad Morin
+ 349  50563  Jack Gill
+ 369  38806  Kevin Rodriguez
+ 341  74203  Lee Mayer
+ 329  63808  Levi Bryan
+ 353  68358  Lucian Newton
+ 397   4667  Maxwell Joyce
+ 377   6405  Owen Pierce
+ 393   9210  Phillip Ewing
+ 345  54941  Randall Hunt
+ 333  24430  Silas Acevedo
+ 309  12434  Tad Walters
+ 305  52696  Tanner Powers
+
+Test Copy Constructor and Destructor
+------------------------------------
+after emptying, byRefList is: 
+
+byValList is: 
+ 261  65380  Alec Mosley
+ 253  50283  Arsenio Young
+ 269  34218  Chester Huber
+ 213  59667  Cody Knight
+ 245  22081  Conan Freeman
+ 237  57674  Cooper Santos
+ 273  71253  Drake Herrera
+ 217  14195  Dustin Roth
+ 221  27394  Evan Hendricks
+ 265  74542  Gareth Lambert
+ 285  34643  Hilel Potter
+ 209  31233  Hop Stevenson
+ 297  40577  Kane Gallegos
+ 201  29976  Kane Wilkins
+ 249  12921  Mannix Robbins
+ 281  11677  Nigel Kim
+ 289  18291  Oliver Hatfield
+ 241  55658  Scott Guy
+ 257  35398  Silas Francis
+ 225  61683  Solomon Burton
+ 293  18094  Thaddeus Hyde
+ 229   8789  Vaughan Hubbard
+ 205  32985  Vernon Lott
+ 277  57810  Wang Mueller
+ 233  49545  William Kirk
+
+back in main, Company10:
+
+==19908== 
+==19908== HEAP SUMMARY:
+==19908==     in use at exit: 0 bytes in 0 blocks
+==19908==   total heap usage: 759 allocs, 759 frees, 45,400 bytes allocated
+==19908== 
+==19908== All heap blocks were freed -- no leaks are possible
+==19908== 
+==19908== For counts of detected and suppressed errors, rerun with: -v
+==19908== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 15 from 8)
+]0;ctran206@uw1-320-22:~/CSS342B/LAB3[ctran206@uw1-320-22 LAB3]$ exit
+
+Script done on Sun 27 Oct 2013 02:09:15 PM PDT
