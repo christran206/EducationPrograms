@@ -1,0 +1,9 @@
+c:\users\v-ctran\documents\visual studio 2013\Projects\SimpleTextEditor\SimpleTextEditor\bin\Debug\SimpleTextEditor.exe.config
+c:\users\v-ctran\documents\visual studio 2013\Projects\SimpleTextEditor\SimpleTextEditor\bin\Debug\SimpleTextEditor.exe
+c:\users\v-ctran\documents\visual studio 2013\Projects\SimpleTextEditor\SimpleTextEditor\bin\Debug\SimpleTextEditor.pdb
+c:\users\v-ctran\documents\visual studio 2013\Projects\SimpleTextEditor\SimpleTextEditor\obj\Debug\SimpleTextEditor.csprojResolveAssemblyReference.cache
+c:\users\v-ctran\documents\visual studio 2013\Projects\SimpleTextEditor\SimpleTextEditor\obj\Debug\SimpleTextEditor.Form1.resources
+c:\users\v-ctran\documents\visual studio 2013\Projects\SimpleTextEditor\SimpleTextEditor\obj\Debug\SimpleTextEditor.Properties.Resources.resources
+c:\users\v-ctran\documents\visual studio 2013\Projects\SimpleTextEditor\SimpleTextEditor\obj\Debug\SimpleTextEditor.csproj.GenerateResource.Cache
+c:\users\v-ctran\documents\visual studio 2013\Projects\SimpleTextEditor\SimpleTextEditor\obj\Debug\SimpleTextEditor.exe
+c:\users\v-ctran\documents\visual studio 2013\Projects\SimpleTextEditor\SimpleTextEditor\obj\Debug\SimpleTextEditor.pdb

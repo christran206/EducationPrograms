@@ -1,0 +1,62 @@
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\App.xbf
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\MainPage.xbf
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\SaveTheHumans.exe
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\SaveTheHumans.pdb
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\resources.pri
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\AppxManifest.xml
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\SaveTheHumans.build.appxrecipe
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\App.g.i.cs
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\App.g.cs
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\MainPage.g.i.cs
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\MainPage.g.cs
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\App.xaml
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\MainPage.xaml
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\App.xbf
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\MainPage.xbf
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\XamlSaveStateFile.xml
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\SaveTheHumans.exe
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\SaveTheHumans.pdb
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\priconfig.xml
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\priconfig.xml.intermediate
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\layout.resfiles
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\layout.resfiles.intermediate
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\resources.resfiles
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\resources.resfiles.intermediate
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\pri.resfiles
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\pri.resfiles.intermediate
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\qualifiers.txt
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\qualifiers.txt.intermediate
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\v-ctran\Google Drive\VisualStudio2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\ProjectArchitectures.txt
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\App.xbf
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\MainPage.xbf
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\SaveTheHumans.exe
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\SaveTheHumans.pdb
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\resources.pri
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\AppxManifest.xml
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\SaveTheHumans.build.appxrecipe
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\App.g.i.cs
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\App.g.cs
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\MainPage.g.i.cs
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\MainPage.g.cs
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\App.xaml
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\App.xbf
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\XamlSaveStateFile.xml
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\MainPage.xaml
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\MainPage.xbf
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\SaveTheHumans.exe
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\SaveTheHumans.pdb
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\priconfig.xml
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\priconfig.xml.intermediate
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\layout.resfiles
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\layout.resfiles.intermediate
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\resources.resfiles
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\resources.resfiles.intermediate
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\pri.resfiles
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\pri.resfiles.intermediate
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\qualifiers.txt
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\qualifiers.txt.intermediate
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\obj\Debug\ProjectArchitectures.txt

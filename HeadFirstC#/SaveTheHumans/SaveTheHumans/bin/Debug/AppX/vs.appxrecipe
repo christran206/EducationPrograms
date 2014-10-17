@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>V-CTRAN-WS1</Machine>
+    <WindowsUser>v-ctran</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>21713e63-a068-41f3-888a-a7bc7f4a87e5</PackageIdentityName>
+    <RegisteredManifestChecksum>05F7C7840002B657B6BA6079AAAFE6D3B710B56068C228E76E324486641CE82B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>21713e63-a068-41f3-888a-a7bc7f4a87e5_1.0.0.0_neutral__2z5egk390me14</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>21713e63-a068-41f3-888a-a7bc7f4a87e5_2z5egk390me14!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>21713e63-a068-41f3-888a-a7bc7f4a87e5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=v-ctran</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-11T22:32:42.860</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\SaveTheHumans.exe">
+      <PackagePath>SaveTheHumans.exe</PackagePath>
+      <Modified>2014-09-11T22:44:07.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-11T22:29:47.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2014-09-11T20:24:13.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-09-11T22:32:42.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-09-11T22:44:07.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-ctran\Documents\Visual Studio 2013\Projects\SaveTheHumans\SaveTheHumans\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-09-11T22:32:42.659</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
